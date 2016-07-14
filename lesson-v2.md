@@ -5,8 +5,14 @@ http://digitalscholarship.utsc.utoronto.ca/projects/islandora/object/nearbystudi
 http://digitalscholarship.utsc.utoronto.ca/projects/islandora/object/nearbystudies%3A585/datastream/MODS/view
 
 ## Setup
-http://basex.org/products/download/
-Mac: brew install basex
+
+Install basex: http://basex.org/products/download/
+
+Mac:
+You need to install homebrew: http://brew.sh/
+Once that's installed, run
+```brew install basex```
+
 Windows: use installer
 Linux: use distribution
 
@@ -67,7 +73,8 @@ XPath uses path expressions to select nodes in an XML document. The node is sele
 
 Looking at books.xml
 
-```<?xml version="1.0"?>
+```
+<?xml version="1.0"?>
 <catalog>
    <book id="bk101" category="TECHNOLOGY">
       <author>Gambardella, Matthew</author>
@@ -192,6 +199,7 @@ Looking at books.xml
       environment.</description>
    </book>
 </catalog>
+
 ```
 
 XPath represents xml as a tree data structure. Here are some common terminologies to describe elements of the document tree:
